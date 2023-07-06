@@ -247,7 +247,7 @@ function resetQuiz() {
     document.getElementById("quiz-container").style.display = "none";
     document.getElementById("name").value = "";
     countdown = 3;
-    maxTime = 5;
+    maxTime = 30;
 
 }
 
