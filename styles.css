@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  background-image: url("assets/img/math1.jpg");
+  background-size: cover;
+  padding: 100px 100px 100px 100px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Segoe UI';
+  font-size: 50px;
+}
+
+#start-button-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#quiz-container {
+  margin-bottom: 20px;
+}
+
+#quiz-container h2 {
+  margin-bottom: 10px;
+}
+
+#choices li {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+#result {
+  text-align: center;
+}
+
+#leaderboard {
+   margin: 50px 350px 50px 350px;
+   padding-top: 20px ;
+   text-align: center;
+     /* background: red; */
+    border-radius: 10px;
+    box-shadow: 0 7px 30px rgba(62, 9, 11, 0.3);
+    border-style: solid;
+    border-color: orangered;
+    ;
+}
+
+#leaderboard ol {
+  padding-left: 10px;
+  counter-reset: leaderboard;
+  list-style-position: inside;
+  text-align: left;
+}
+
+#leaderboard li {
+  margin-bottom: 5px;
+  color: black;
+}
+
+/* #leaderboard li:before {
+        content: counter(listItem);
+        counter-increment: listItem;
+        margin-right: 5px;
+    } */
+
+#quiz-container {
+  margin: 10px;
+}
+
+#quiz-container input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+#quiz-cointainer #choices label {
+  display: inline-block;
+  background-color: #ddd;
+  padding: 10px 20px;
+  font-family: sans-serif, Arial;
+  font-size: 16px;
+  border: 20px solid #444;
+  border-radius: 4px;
+}
+
+#countdowntimer {
+  font-size: 200px;
+}
+
