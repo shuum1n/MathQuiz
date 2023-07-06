@@ -40,6 +40,7 @@ function getReady() {
 
 function startQuiz() {
     quizStarted = true;
+    maxTime = 30;
     document.getElementById("start-button-container").style.display = "none";
     document.getElementById("result").style.display = "none";
     document.getElementById("leaderboard").style.display = "none";
@@ -248,7 +249,6 @@ function resetQuiz() {
     document.getElementById("name").value = "";
     countdown = 3;
     maxTime = 30;
-
 }
 
 function displayLeaderboard() {
