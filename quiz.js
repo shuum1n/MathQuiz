@@ -156,7 +156,7 @@ function generateQuestion() {
             }
             let multipleRes = n1*n2;
             expAns = multipleRes / n2;
-            questionElement.textContent = `${n1} / ${n2}`;
+            questionElement.textContent = `${multipleRes} / ${n2}`;
         }
     }
     answerBox.value = "";
